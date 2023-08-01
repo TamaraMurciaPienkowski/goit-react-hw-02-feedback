@@ -1,0 +1,17 @@
+.wrapper {
+  padding: 30px;
+}
+.noFeedback {
+  margin: 20px;
+  color: rgb(33, 55, 33);
+}
+
+.title {
+  color: rgb(92, 45, 104);
+  font-weight: bold;
+  font-style: italic;
+}
+
+.feedback {
+  font-style: oblique;
+}

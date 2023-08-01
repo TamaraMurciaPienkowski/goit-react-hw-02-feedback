@@ -1,0 +1,49 @@
+.wrapper {
+  padding: 20px;
+  justify-content: space-evenly;
+}
+.btnGood {
+  width: 100px;
+  font-weight: bold;
+  background-color: rgb(5, 171, 5);
+  border: none;
+  padding: 10px 20px;
+  margin: 0px 10px 0px 10px;
+}
+.btnNeutral {
+  width: 100px;
+  font-weight: bold;
+  background-color: rgb(129, 129, 238);
+  border: none;
+  padding: 10px 20px;
+  margin: 0px 10px 0px 10px;
+}
+
+.btnBad {
+  width: 100px;
+  font-weight: bold;
+  background-color: rgb(222, 73, 73);
+  border: none;
+  padding: 10px 20px;
+  margin: 0px 10px 0px 10px;
+}
+.btnGood:hover {
+  background-color: rgb(5, 171, 5);
+  cursor: pointer;
+  box-shadow: 5px 2px 5px rgb(166, 218, 88);
+  transform: scale(1.2);
+}
+
+.btnNeutral:hover {
+  background-color: rgb(129, 129, 238);
+  cursor: pointer;
+  box-shadow: 5px 2px 5px rgb(153, 153, 233);
+  transform: scale(1.2);
+}
+
+.btnBad:hover {
+  background-color: rgb(222, 73, 73);
+  cursor: pointer;
+  box-shadow: 5px 2px 5px rgb(231, 90, 90);
+  transform: scale(1.2);
+}

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import FeedbackOptions from 'components/FeedbackOptions';
 import Statistics from 'components/Statistics';
+import css from './sectionTitle.module.css';
 
 class SectionTitle extends Component {
   state = {
@@ -16,8 +17,8 @@ class SectionTitle extends Component {
   };
   render() {
     return (
-      <div>
-        <h1>Please leave feedback</h1>
+      <div className={css.wrapper}>
+        <h1 className={css.title}>Please leave feedback</h1>
         <FeedbackOptions add={this.add} />
         <Statistics
           good={this.state.good}
